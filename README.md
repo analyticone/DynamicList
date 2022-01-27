@@ -11,8 +11,6 @@ add(item:  Item) : void|This method adds an item to the end of the list
 addAt(index: int, item: Item) : void|This method inserts an item at the specified position (index) in the list, moving items to make room.
 get(index: int) : Item|This method returns the item at the specified position (index) in the list
 set(index: int, item: Item) : boolean|Replaces the item at the specified index with the item passed as an argument to the method. It returns true if the replacement was made.
-replace(oldItem: Item, newItem: Item) : boolean|Replaces the first occurrence of oldItem in the list with newItem.  It returns true if the replacement was made.
-replaceAll(oldItem: Item, newItem: Item) : boolean|Replaces all occurrences of oldItem in the list with newItem. It returns true if the replacements were made.
 remove(item: Item) : boolean|This removes from the list the first occurrence of item and returns true if the item was removed
 removeAt(index: int) : Item|This removes from the list the item at index and returns the item was removed or null if it was not removed
 indexOf(item: Item) : int |Returns the index of the first occurrence of item in the list or returns -1 if item is not in the list
